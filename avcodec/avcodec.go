@@ -198,7 +198,7 @@ const (
 	CapabilityFrameThreads      Capabilities = C.CODEC_CAP_FRAME_THREADS
 	CapabilitySliceThreads      Capabilities = C.CODEC_CAP_SLICE_THREADS
 	CapabilityParamChange       Capabilities = C.CODEC_CAP_PARAM_CHANGE
-	CapabilityAutoThreads       Capabilities = C.CODEC_CAP_AUTO_THREADS
+	CapabilityAutoThreads       Capabilities = C.AV_CODEC_CAP_AUTO_THREADS
 	CapabilityVariableFrameSize Capabilities = C.CODEC_CAP_VARIABLE_FRAME_SIZE
 	CapabilityIntraOnly         Capabilities = C.CODEC_CAP_INTRA_ONLY
 	CapabilityLossless          Capabilities = C.CODEC_CAP_LOSSLESS
